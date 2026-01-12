@@ -53,7 +53,7 @@ def build_model():
             validation_data=(x_test, y_test)
         ),
 
-    model.save("cnn_cifar10.keras")
+    model.export("cnn_cifar10_savedmodel")
 
     return model
 

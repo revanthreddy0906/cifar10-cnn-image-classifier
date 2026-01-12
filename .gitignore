@@ -1,20 +1,22 @@
-# Python
+# ===============================
+# Model artifacts & deployments
+# ===============================
+cnn_cifar10_savedmodel/
+*.keras
+*.h5
+
+# Hugging Face repos (local clones)
+cifar10-cnn-image-classifier/
+cifar10-cnn-demo/
+
+# Upload / utility scripts
+upload_model.py
+
+# ===============================
+# Python / system
+# ===============================
 __pycache__/
 *.pyc
-
-# Virtual environments
-venv/
-.env/
-
-# Model files
-*.h5
-*.keras
-
-# OS files
-.DS_Store
-
-# Jupyter
 .ipynb_checkpoints/
-
-# Logs
-logs/
+.DS_Store
+.env
