@@ -108,3 +108,22 @@ pip install -r requirements.txt
 -   Transfer learning with pretrained backbones
 
 -   Per-class precision and recall analysis
+
+---
+
+## 🌐 Model Deployment & Live Demo
+
+The trained CNN model has been published on **Hugging Face** along with an interactive web demo.
+
+### 🔗 Hugging Face Model
+- Model repository:  
+  👉 https://huggingface.co/WhiteDevilOP/cifar10-cnn-image-classifier  
+- Contains trained TensorFlow model weights and documentation.
+
+### 🚀 Live Web Demo (Hugging Face Space)
+- Try the model in your browser:  
+  👉 https://huggingface.co/spaces/WhiteDevilOP/cifar10-cnn-demo  
+- Upload an image and get top CIFAR-10 predictions in real time.
+
+This deployment demonstrates the complete ML workflow:
+**training → evaluation → publishing → inference**.
