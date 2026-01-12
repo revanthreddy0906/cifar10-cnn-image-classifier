@@ -1,5 +1,6 @@
 # CIFAR-10 CNN Image Classifier
-
+[![Hugging Face Space](https://img.shields.io/badge/HuggingFace-Space-blue)](https://huggingface.co/spaces/WhiteDevilOP/cifar10-cnn-demo)
+[![Hugging Face Model](https://img.shields.io/badge/HuggingFace-Model-yellow)](https://huggingface.co/WhiteDevilOP/cifar10-cnn-image-classifier)
 A Convolutional Neural Network (CNN) built **from scratch** using **TensorFlow/Keras** to classify images from the CIFAR-10 dataset into 10 object categories.
 
 This project focuses on **understanding CNN design, training stability, regularization, and evaluation**, without using pretrained models or transfer learning.
